@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "NeuroNest",
+    "slug": "neuronest",
+    "version": "1.17.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F6F7F3"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "online.neuronest.app"
+    },
+    "android": {
+      "package": "online.neuronest.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#527469"
+      }
+    },
+    "web": { "favicon": "./assets/icon.png" }
+  }
+}
